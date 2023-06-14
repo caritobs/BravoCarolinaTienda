@@ -1,0 +1,348 @@
+*{margin:0px; padding:0px}
+*{border: 1px solid #ff0000;}
+/*ENCABEZADO*/
+.opciones{
+ 
+    background-color:#A3A656 ;
+        height: 70px;
+        
+
+}
+.opciones nav ul li{
+list-style-type: none;
+display: inline-block;
+margin-top:25px;
+font-family: "Menu";
+font-size: 16px;
+      
+
+
+}
+
+
+
+
+.opciones nav ul li:hover{color: #FFFF00}
+.opciones ul{
+    margin-left: 70px;
+    float: left;
+
+}
+/*PIE DE PAGINA*/
+.Footer{
+    background-color:#384001 ;
+    height: 97px;
+    
+    
+}
+
+
+.Footer nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top:40px;
+    font-family: "Menu";
+   font-size: 16px;
+   color: #A3A656;   
+     
+   
+    }
+.Footer nav ul li:hover{color: #FFFF00}
+.Footer ul{
+        margin-left: 70px;
+        float: left;
+        
+    
+    }
+
+#facebook img{
+    height: 41px;
+    width: 45px;
+    position: relative;
+    left: 100px;
+    top: 15px;
+   
+    
+
+}
+
+/*tipo letra*/
+@font-face {
+    font-family: "Encabezado";
+    src: url("fonts/Romanesco-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Titulo2";
+    src: url("fonts/Inter-Semibold.ttf") format('truetype');
+    
+  }
+
+@font-face {
+    font-family: "Menu";
+    src: url("fonts/Inter-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Titulo1";
+    src: url("fonts/Inter-Bold.ttf");
+}
+
+
+
+  /*-----------------------------------*/
+
+.login{
+    height: 70px;
+    float: right;
+    font-family: "Menu";
+    font-size: 14px;
+ 
+    
+       
+}
+
+#cuenta{
+    
+    display:inline;
+    
+}
+
+.card{
+    height: 680px;
+   
+}
+
+
+#cuenta:hover{color: #FFFF00}
+/*Estilos del banner*/
+
+#subtitulo {
+ 
+background-image: url(../imags/main.png);
+background-size: 100% 100%;
+
+width: auto; 
+height: 667px;
+
+background-repeat: no-repeat;
+
+}
+#subtitulo #titulo1{
+    font-family: "Encabezado";
+    font-size: 96px;
+    position: relative;
+        left: 150px;
+        top: 200px;    
+}
+#subtitulo #titulo2 {
+    
+        font-family: "Titulo2";
+        font-size:32px;
+       /*padding-left:10%;*/
+       position: relative;
+        left: 150px;
+        top: 250px;    
+    
+        
+}
+
+ 
+
+
+
+.reservaCita{
+    background-color:#F2F6F6 ;    
+    height: 100px;
+    text-align: center;
+
+ 
+}
+.reservaCita input{
+  
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.reservaCita span{
+    font-family: "Menu";
+    font-size: 16px;
+}
+
+.Servicios p{
+    font-family: "Menu";
+    font-size: "16px";
+}
+
+.Servicios h3{
+    font-family: "Titulo1";
+    font-size: 30px;
+}
+
+/*CONFIGURAR LA CARDA*/
+
+
+.Servicios {width:350px; height:auto;
+text-align:justify; border-radius: 15px 15px 0px 0px;
+/*margin-left: 134px;
+margin: 70px;*/
+float:left;
+
+position: relative;
+left: 70px;
+top: 100px;
+
+margin-right: 134px;
+}
+
+
+h2{
+    background-color: #A3A656;
+    text-align: center;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    font-family: "Titulo2";
+    font-size: 32;
+    padding: 5%;
+}
+
+.Servicios img{width: 100%; height: auto;
+    float: right;
+}
+
+
+
+
+.add-button h5:hover{
+    background-color: #384001;
+}
+.add-button h5{
+    background-color: #A3A656;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 35px;
+    width: 35%;
+    float: right;
+}
+ div h5{
+   float: left;
+   margin-left: 10px;
+   margin-top: 25px;
+   font-family: "Titulo2";
+   font-size: 15px;
+
+}
+div h3{
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.imagenes img {
+    height: auto;
+}
+.imagenes {
+    height: auto;
+}
+.imagenes p{
+    width: 100%; height: auto;
+    float: right;
+    padding-top: 5%;
+    
+}
+
+/***************BEneficios***********************/
+.Beneficios{
+    height: 770px;
+    background-color: #F2F6F6;
+}
+
+
+
+
+.CuadroBeneficios{
+    display: inline-block;
+    
+   
+    /*margin-left: 134px;*/
+    
+   /* float:left;
+    */
+    position: relative;
+    left: 150px;
+    top: 180px;
+    
+   
+    }
+
+/*Imagenes redondas*/
+.ImagenBeneficios img{
+    width: 150px ;
+    height: 150px;
+    position: absolute;
+    top: 50%; /* Mueve la imagen hacia el centro verticalmente */
+ left: 50%; /*Mueve la imagen hacia el centro horizontalmente */
+  transform: translate(-50%, -50%);
+  
+
+
+}
+
+.ImagenBeneficios{
+    
+        width: 255px;
+        height: 255px;
+        border-radius: 50%;
+        border: 10px solid #384001;
+        position: relative;
+        background-color:#FFFFFF;
+}
+
+
+.add-buttonBeneficios p{
+    background-color: #A3A656;
+    color: white;
+    text-align: center;
+    padding: 5%;
+   border: none;
+       border-radius: 35px;
+       font-family: "Titulo2";
+   font-size: 15px;
+     
+}
+
+.add-buttonBeneficios p:hover{
+    background-color: #384001;
+}
+
+.CuadroBeneficios h4{
+    font-family: "Titulo2";
+    font-size: 25px;
+    padding-bottom: 8%;
+}
+
+.Beneficios h1{
+    
+    position: absolute;
+    margin-top: 50px;
+    left: 25%;
+    font-family: "Titulo2";
+    font-size: 32px
+}
+
+.listaBeneficios ul li{
+    font-family: "Menu";
+    font-size: 16px;
+    
+}
+
+.listaBeneficios{
+    padding-top: 25px;
+   
+}
+
+
+
+
+
+ 
