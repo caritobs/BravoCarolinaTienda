@@ -1,5 +1,5 @@
 *{margin:0px; padding:0px}
-*{border: 1px solid #ff0000;}
+/**{border: 1px solid #ff0000;}*/
 /*ENCABEZADO*/
 .opciones{
  
@@ -54,13 +54,20 @@ font-size: 16px;
         
     
     }
+.redes{
+    float: right;
+    margin: 15px;
+    margin-right: 2%;
+    
+    
+}
 
 #facebook img{
     height: 41px;
     width: 45px;
-    position: relative;
+    /*position: relative;
     left: 100px;
-    top: 15px;
+    top: 15px;*/
    
     
 
