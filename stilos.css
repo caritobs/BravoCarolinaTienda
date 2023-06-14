@@ -229,7 +229,7 @@ h2{
    float: left;
    margin-left: 10px;
    margin-top: 25px;
-   font-family: "Titulo2";
+   font-family: "Titulo1";
    font-size: 15px;
 
 }
@@ -306,7 +306,7 @@ div h3{
     padding: 5%;
    border: none;
        border-radius: 35px;
-       font-family: "Titulo2";
+       font-family: "Titulo1";
    font-size: 15px;
      
 }
@@ -316,7 +316,7 @@ div h3{
 }
 
 .CuadroBeneficios h4{
-    font-family: "Titulo2";
+    font-family: "Titulo1";
     font-size: 25px;
     padding-bottom: 8%;
 }
