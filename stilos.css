@@ -1,5 +1,5 @@
 *{margin:0px; padding:0px}
-/**{border: 1px solid #ff0000;}*/
+/*{border: 1px solid #ff0000;}*/
 /*ENCABEZADO*/
 .opciones{
  
@@ -325,7 +325,8 @@ div h3{
 .CuadroBeneficios h4{
     font-family: "Titulo2";
     font-size: 25px;
-    padding-bottom: 8%;
+    padding-top: 3%;
+    padding-bottom: 10%;
 }
 
 .Beneficios h1{
